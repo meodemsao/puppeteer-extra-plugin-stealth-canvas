@@ -1,4 +1,4 @@
-function buildCanvasSalt() {
+export function buildCanvasSalt() {
   const random = (list) => {
     const min = 0;
     const max = list.length;
@@ -13,5 +13,3 @@ function buildCanvasSalt() {
   }
   return canvasSalt;
 }
-
-module.exports = buildCanvasSalt;
