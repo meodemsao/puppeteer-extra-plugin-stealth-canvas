@@ -1,8 +1,8 @@
 "use strict";
 
 const { PuppeteerExtraPlugin } = require("puppeteer-extra-plugin");
-const withUtils = require("../_utils/withUtils");
-const withWorkerUtils = require("../_utils/withWorkerUtils");
+const withUtils = require("./utils/withUtils");
+const withWorkerUtils = require("./utils/withWorkerUtils");
 const { buildCanvasSalt } = require("./canvasSalt");
 
 // the results of toDataURL are not the same for the same OS version, same GPU, same chrome version:

@@ -1,13 +1,12 @@
 {
-  "name": "puppeteer-extra-plugin-stealth-canvas",
+  "name": "@meodemsao/puppeteer-extra-plugin-stealth-canvas",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "bangvc",
+  "author": "meodemsao",
   "license": "ISC",
   "devDependencies": {
     "puppeteer": "^21.6.1",
@@ -15,5 +14,6 @@
   },
   "dependencies": {
     "puppeteer-extra-plugin": "^3.2.3"
-  }
+  },
+  "description": ""
 }
