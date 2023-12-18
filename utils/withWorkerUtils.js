@@ -1,6 +1,6 @@
 const utils = require("./index");
 
-module.exports = (plugin, jsContent) => ({
+module.exports = (jsContent) => ({
   evaluate: async function (mainFunction, ...args) {
     const thisJsContent = `
 (function() {
